@@ -1,0 +1,37 @@
+{
+  "name": "fiveipoffices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syncids/fiveipoffices.git"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syncids/fiveipoffices/issues"
+  },
+  "homepage": "https://github.com/syncids/fiveipoffices#readme",
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "nodemon": "^1.11.0",
+    "prettier": "^1.5.3"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.30"
+  }
+}
